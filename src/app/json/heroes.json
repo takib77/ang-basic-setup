@@ -1,0 +1,28 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Magneto",
+      "address": "New York",
+      "superpower": "magnetic"
+    },
+    {
+      "id": 2,
+      "name": "Elemental Hero Neos",
+      "address": "London",
+      "superpower": "Cosmic"
+    },
+    {
+      "id": 3,
+      "name": "Stratos",
+      "address": "Paris",
+      "superpower": "Windstorm"
+    },
+    {
+      "id": 4,
+      "name": "Destiny",
+      "address": "Bp",
+      "superpower": "Lucky"
+    }
+  ]
+}

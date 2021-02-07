@@ -1,0 +1,12 @@
+<h1>Hero details:</h1>
+<ul [appHighlight]="'blue'">
+    <li>
+        <p *appDelay='1500'>{{ hero.name | prefix:'Monsieur' }}</p>
+    </li>
+    <li>
+        <p *appDelay='2800'>{{ hero.address }}</p>
+    </li>
+    <li>
+        <p *appDelay='4000'>{{ hero.superpower }}</p>
+    </li>
+</ul>
