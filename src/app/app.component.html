@@ -1,11 +1,4 @@
-<app-watch></app-watch>
-
-<h2>List of Heroes</h2>
-<ul>
-    <li *ngFor="let hero of listObservable | async">
-        <button (click)="setHero(hero)" class="btn btn-info">{{hero.name}}</button>
-    </li>
-</ul>
-
-
-<app-hero-detail *ngIf="myHero" [hero]="myHero"></app-hero-detail>
+<app-nav></app-nav>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
