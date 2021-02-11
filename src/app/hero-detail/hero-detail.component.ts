@@ -10,6 +10,7 @@ import { HeroService } from '../service/hero.service';
 })
 export class HeroDetailComponent implements OnInit {
   @Input() hero: Hero = new Hero;
+  superPowers: string[] = ['Magnetic', 'Cosmic', 'Windstorm', 'Lucky', 'Teleport', 'Time travel'];
 
   constructor(
     private hService: HeroService,
@@ -25,4 +26,10 @@ export class HeroDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSubmit(): void {
+    this.hService.updateData(this.hero)
+      .forEach(value => {
+        console.log('Updated hero:', value)
+      });
+  }
 }

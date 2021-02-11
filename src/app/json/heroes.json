@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Magneto",
       "address": "New York",
-      "superpower": "magnetic"
+      "superpower": "Magnetic"
     },
     {
       "id": 2,
@@ -20,8 +20,8 @@
     },
     {
       "id": 4,
-      "name": "Destiny",
-      "address": "Bp",
+      "name": "Destiny Vision",
+      "address": "Budapest",
       "superpower": "Lucky"
     }
   ]
